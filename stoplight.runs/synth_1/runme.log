@@ -1,0 +1,292 @@
+
+*** Running vivado
+    with args -log top_basys3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_basys3.tcl
+
+
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Mar  4 14:30:16 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source top_basys3.tcl -notrace
+create_project: Time (s): cpu = 00:00:08 ; elapsed = 00:00:18 . Memory (MB): peak = 526.617 ; gain = 220.254
+Command: read_checkpoint -auto_incremental -incremental C:/Users/C28Reva.Kalbhor/ece281/ice4/stoplight.srcs/utils_1/imports/synth_1/top_basys3.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/C28Reva.Kalbhor/ece281/ice4/stoplight.srcs/utils_1/imports/synth_1/top_basys3.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top_basys3 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 14264
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:13 . Memory (MB): peak = 1265.566 ; gain = 541.926
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_basys3' [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/top_basys3.vhd:71]
+INFO: [Synth 8-3491] module 'stoplight_fsm' declared at 'C:/Users/C28Reva.Kalbhor/ece281/ice4/src/stoplight_fsm.vhd:63' bound to instance 'stoplight_inst' of component 'stoplight_fsm' [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/top_basys3.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'stoplight_fsm' [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/stoplight_fsm.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'stoplight_fsm' (0#1) [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/stoplight_fsm.vhd:72]
+	Parameter k_DIV bound to: 50000000 - type: integer 
+INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/Users/C28Reva.Kalbhor/ece281/ice4/src/clock_divider.vhd:51' bound to instance 'clkdiv_inst' of component 'clock_divider' [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/top_basys3.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'clock_divider' [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/clock_divider.vhd:61]
+	Parameter k_DIV bound to: 50000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_divider' (0#1) [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/clock_divider.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'top_basys3' (0#1) [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/top_basys3.vhd:71]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1382.891 ; gain = 659.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1382.891 ; gain = 659.250
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:17 . Memory (MB): peak = 1382.891 ; gain = 659.250
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1382.891 ; gain = 0.000
+
+*** Running vivado
+    with args -log top_basys3.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_basys3.tcl
+
+
+
+****** Vivado v2025.2 (64-bit)
+  **** SW Build 6299465 on Fri Nov 14 19:35:11 GMT 2025
+  **** IP Build 6300035 on Fri Nov 14 10:48:45 MST 2025
+  **** SharedData Build 6298862 on Thu Nov 13 04:50:51 MST 2025
+  **** Start of session at: Wed Mar  4 14:31:55 2026
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source top_basys3.tcl -notrace
+create_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:09 . Memory (MB): peak = 526.270 ; gain = 221.477
+Command: read_checkpoint -auto_incremental -incremental C:/Users/C28Reva.Kalbhor/ece281/ice4/stoplight.srcs/utils_1/imports/synth_1/top_basys3.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from C:/Users/C28Reva.Kalbhor/ece281/ice4/stoplight.srcs/utils_1/imports/synth_1/top_basys3.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top top_basys3 -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 13828
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:08 . Memory (MB): peak = 1265.301 ; gain = 543.199
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'top_basys3' [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/top_basys3.vhd:71]
+INFO: [Synth 8-3491] module 'stoplight_fsm' declared at 'C:/Users/C28Reva.Kalbhor/ece281/ice4/src/stoplight_fsm.vhd:63' bound to instance 'stoplight_inst' of component 'stoplight_fsm' [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/top_basys3.vhd:103]
+INFO: [Synth 8-638] synthesizing module 'stoplight_fsm' [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/stoplight_fsm.vhd:72]
+INFO: [Synth 8-256] done synthesizing module 'stoplight_fsm' (0#1) [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/stoplight_fsm.vhd:72]
+	Parameter k_DIV bound to: 50000000 - type: integer 
+INFO: [Synth 8-3491] module 'clock_divider' declared at 'C:/Users/C28Reva.Kalbhor/ece281/ice4/src/clock_divider.vhd:51' bound to instance 'clkdiv_inst' of component 'clock_divider' [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/top_basys3.vhd:114]
+INFO: [Synth 8-638] synthesizing module 'clock_divider' [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/clock_divider.vhd:61]
+	Parameter k_DIV bound to: 50000000 - type: integer 
+INFO: [Synth 8-256] done synthesizing module 'clock_divider' (0#1) [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/clock_divider.vhd:61]
+INFO: [Synth 8-256] done synthesizing module 'top_basys3' (0#1) [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/top_basys3.vhd:71]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1383.168 ; gain = 661.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1383.168 ; gain = 661.066
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:11 . Memory (MB): peak = 1383.168 ; gain = 661.066
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1383.168 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/Basys3_Master.xdc]
+Finished Parsing XDC File [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/C28Reva.Kalbhor/ece281/ice4/src/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/top_basys3_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/top_basys3_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1422.125 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 1422.125 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 1422.125 ; gain = 700.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 1422.125 ; gain = 700.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:23 . Memory (MB): peak = 1422.125 ; gain = 700.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:13 ; elapsed = 00:00:23 . Memory (MB): peak = 1422.125 ; gain = 700.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   31 Bit       Adders := 1     
++---Registers : 
+	               31 Bit    Registers := 1     
+	                2 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:27 . Memory (MB): peak = 1422.125 ; gain = 700.023
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:34 . Memory (MB): peak = 1573.117 ; gain = 851.016
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:34 . Memory (MB): peak = 1594.887 ; gain = 872.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:34 . Memory (MB): peak = 1594.887 ; gain = 872.785
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 1833.359 ; gain = 1111.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 1833.359 ; gain = 1111.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 1833.359 ; gain = 1111.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 1833.359 ; gain = 1111.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 1833.359 ; gain = 1111.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 1833.359 ; gain = 1111.258
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     1|
+|2     |CARRY4 |     8|
+|3     |LUT1   |     1|
+|4     |LUT2   |     4|
+|5     |LUT3   |     1|
+|6     |LUT4   |    36|
+|7     |LUT5   |     2|
+|8     |LUT6   |     1|
+|9     |FDCE   |    33|
+|10    |FDPE   |     1|
+|11    |IBUF   |     4|
+|12    |OBUF   |     3|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:22 ; elapsed = 00:00:39 . Memory (MB): peak = 1833.359 ; gain = 1111.258
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:36 . Memory (MB): peak = 1833.359 ; gain = 1072.301
+Synthesis Optimization Complete : Time (s): cpu = 00:00:22 ; elapsed = 00:00:40 . Memory (MB): peak = 1833.359 ; gain = 1111.258
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1837.992 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1841.445 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: a7776ec8
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:48 . Memory (MB): peak = 1841.445 ; gain = 1305.781
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1841.445 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/C28Reva.Kalbhor/ece281/ice4/stoplight.runs/synth_1/top_basys3.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file top_basys3_utilization_synth.rpt -pb top_basys3_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Wed Mar  4 14:33:01 2026...

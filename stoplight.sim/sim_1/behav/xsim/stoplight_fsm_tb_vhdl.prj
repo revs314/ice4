@@ -1,0 +1,7 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../src/stoplight_fsm.vhd" \
+"../../../../src/stoplight_fsm_tb.vhd" \
+
+# Do not sort compile order
+nosort

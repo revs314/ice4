@@ -114,3 +114,648 @@ Copyright 2022-2025 Advanced Micro Devices, Inc. All Rights Reserved.
 // TclEventType: START_GUI
 // Tcl Message: start_gui 
 // TclEventType: PROJECT_OPEN_DIALOG
+// HMemoryUtils.trashcanNow. Engine heap size: 731 MB. GUI used memory: 73 MB. Current time: 3/4/26, 9:49:20 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1004 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 867 MB. GUI used memory: 72 MB. Current time: 3/4/26, 9:49:35 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1002 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 911 MB. GUI used memory: 72 MB. Current time: 3/4/26, 9:49:46 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1010 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1008 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1007 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 912 MB. GUI used memory: 72 MB. Current time: 3/4/26, 9:50:26 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1007 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1006 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1007 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1004 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1009 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1008 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1006 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1004 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 912 MB. GUI used memory: 72 MB. Current time: 3/4/26, 9:51:06 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1006 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1004 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1010 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1006 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1009 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1006 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 912 MB. GUI used memory: 72 MB. Current time: 3/4/26, 9:51:47 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1012 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1005 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1006 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1003 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1001 ms.
+// WARNING: HEventQueue.dispatchEvent() is taking  1009 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 912 MB. GUI used memory: 72 MB. Current time: 3/4/26, 9:52:27 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1007 ms.
+selectButton(RDIResource.BaseDialog_OK, "OK", "Older Project Version"); // f (RDIResource.BaseDialog_OK)
+// Opening Vivado Project: C:\Users\C28Reva.Kalbhor\ece281\ice4\stoplight.xpr. Version: Vivado v2024.2 
+dismissDialog("Older Project Version"); // az (dialog0)
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: FLOW_ADDED
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: MSGMGR_REFRESH_MSG
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/C28Reva.Kalbhor/ece281/ice4/stoplight.xpr 
+// Tcl Message: INFO: [filemgmt 56-3] Default IP Output Path : Could not find the directory 'C:/Users/C28Reva.Kalbhor/ece281/ice4/stoplight.gen/sources_1'. 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [Project 1-230] Project 'stoplight.xpr' upgraded for this version of Vivado. INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 135 MB (+139170kb) [00:03:35]
+// [Engine Memory]: 1,002 MB (+899344kb) [00:03:35]
+// WARNING: HEventQueue.dispatchEvent() is taking  3493 ms.
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/AMDDesignTools/2025.2/Vivado/data/ip'. 
+// [GUI Memory]: 152 MB (+10791kb) [00:03:41]
+// Project name: stoplight; location: C:/Users/C28Reva.Kalbhor/ece281/ice4; part: xc7a35tcpg236-1
+// Tcl Message: open_project: Time (s): cpu = 00:00:06 ; elapsed = 00:00:09 . Memory (MB): peak = 1662.176 ; gain = 86.129 
+dismissDialog("Open Project"); // bk (Open Project Progress)
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 9:53:08 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 9:53:48 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 9:54:28 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 9:55:09 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 9:55:49 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 9:56:30 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 9:57:10 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 9:57:50 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 9:58:31 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 9:59:11 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 9:59:51 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 10:00:32 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 10:01:12 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 10:01:52 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,038 MB. GUI used memory: 77 MB. Current time: 3/4/26, 10:02:33 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,073 MB. GUI used memory: 77 MB. Current time: 3/4/26, 10:02:56 AM MST
+// Elapsed time: 612 seconds
+selectButton(PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV, (String) null); // C (PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV)
+// Run Command: PAResourceCommand.PACommandNames_TOGGLE_VIEW_NAV
+// [Engine Memory]: 1,120 MB (+70505kb) [00:13:55]
+// PAPropertyPanels.initPanels (stoplight_fsm.vhd) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, stoplight_fsm(stoplight_fsm_arch) (stoplight_fsm.vhd)]", 3, false); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, stoplight_fsm(stoplight_fsm_arch) (stoplight_fsm.vhd)]", 3, false, false, false, false, false, true); // E (PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE) - Double Click
+selectButton((HResource) null, "RDIResource.FrameControlsPanel_MAXIMIZE_PlanAheadTabBaseWorkspace_JideTabbedPane"); // P.a (RDIResource.FrameControlsPanel_MAXIMIZE_PlanAheadTabBaseWorkspace_JideTabbedPane)
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // K (PAResourceOtoP.PAViews_BASE_WORKSPACE, PlanAheadTabBaseWorkspace)
+selectCodeEditor("stoplight_fsm.vhd", 579, 285); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 268, 325); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 271, 415); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:03:13 AM MST
+selectCodeEditor("stoplight_fsm.vhd", 550, 226); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 629, 206); // ae (stoplight_fsm.vhd)
+// Elapsed time: 24 seconds
+selectCodeEditor("stoplight_fsm.vhd", 485, 155); // ae (stoplight_fsm.vhd)
+// Elapsed time: 12 seconds
+selectCodeEditor("stoplight_fsm.vhd", 485, 155); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 79 MB. Current time: 3/4/26, 10:03:53 AM MST
+// Elapsed time: 23 seconds
+selectCodeEditor("stoplight_fsm.vhd", 485, 155); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 485, 155, false, false, false, false, true); // ae (stoplight_fsm.vhd) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:04:33 AM MST
+// Elapsed time: 26 seconds
+selectCodeEditor("stoplight_fsm.vhd", 454, 172); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 79 MB. Current time: 3/4/26, 10:05:13 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:05:53 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:06:33 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:07:13 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:07:53 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:08:33 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:09:13 AM MST
+// Elapsed time: 276 seconds
+selectCodeEditor("stoplight_fsm.vhd", 179, 326); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 233, 388); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 641, 426); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 586, 427); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:09:54 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:10:34 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:11:14 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:11:54 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:12:34 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:13:14 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:13:54 AM MST
+// Elapsed time: 298 seconds
+selectCodeEditor("stoplight_fsm.vhd", 363, 290); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:14:34 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:15:14 AM MST
+// Elapsed time: 76 seconds
+selectCodeEditor("stoplight_fsm.vhd", 610, 440); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 120, 458); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:15:54 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:16:34 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:17:14 AM MST
+// Elapsed time: 122 seconds
+selectCodeEditor("stoplight_fsm.vhd", 296, 464); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:17:54 AM MST
+// Elapsed time: 31 seconds
+selectCodeEditor("stoplight_fsm.vhd", 170, 490); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:18:34 AM MST
+// Elapsed time: 21 seconds
+selectCodeEditor("stoplight_fsm.vhd", 532, 454); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 502, 496); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:19:14 AM MST
+// Elapsed time: 68 seconds
+selectCodeEditor("stoplight_fsm.vhd", 234, 411); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:19:54 AM MST
+// Elapsed time: 21 seconds
+selectCodeEditor("stoplight_fsm.vhd", 392, 413); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:20:34 AM MST
+// Elapsed time: 22 seconds
+selectCodeEditor("stoplight_fsm.vhd", 460, 279); // ae (stoplight_fsm.vhd)
+// Elapsed time: 12 seconds
+selectCodeEditor("stoplight_fsm.vhd", 476, 521); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 569, 493); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 412, 435); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 412, 435, false, false, false, false, true); // ae (stoplight_fsm.vhd) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:21:14 AM MST
+// Elapsed time: 32 seconds
+selectCodeEditor("stoplight_fsm.vhd", 385, 526); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 195, 523); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 209, 325); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:21:54 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:22:34 AM MST
+// Elapsed time: 73 seconds
+selectCodeEditor("stoplight_fsm.vhd", 108, 332); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 72, 315); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 29, 243); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 455, 137); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 460, 139); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 219, 513); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 182, 461); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:23:14 AM MST
+// Elapsed time: 42 seconds
+selectCodeEditor("stoplight_fsm.vhd", 686, 257); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 379, 308); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 160, 313); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 160, 313, false, false, false, false, true); // ae (stoplight_fsm.vhd) - Double Click
+selectCodeEditor("stoplight_fsm.vhd", 160, 313); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 306, 415); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:23:54 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:24:34 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  122885 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:27:17 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 81 MB. Current time: 3/4/26, 10:27:57 AM MST
+// Elapsed time: 283 seconds
+selectCodeEditor("stoplight_fsm.vhd", 160, 384); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 189, 366); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:28:37 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:29:17 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:29:57 AM MST
+// Elapsed time: 118 seconds
+selectCodeEditor("stoplight_fsm.vhd", 282, 500); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 334, 573); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 366, 568); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:30:38 AM MST
+selectCodeEditor("stoplight_fsm.vhd", 398, 551); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:31:18 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:31:58 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:32:38 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:33:18 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 81 MB. Current time: 3/4/26, 10:33:58 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:34:38 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:35:18 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:35:58 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:36:39 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:37:19 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:37:59 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:38:40 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:39:20 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:40:00 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:40:41 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:41:21 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:42:01 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:42:23 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:43:03 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:43:44 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:44:24 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:45:05 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:45:45 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 81 MB. Current time: 3/4/26, 10:46:25 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:47:06 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:47:46 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:48:27 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:49:07 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:49:47 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:50:28 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:51:08 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:51:48 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:52:29 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:53:09 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:53:49 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:54:30 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 81 MB. Current time: 3/4/26, 10:55:10 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:55:50 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:56:31 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:57:11 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:57:51 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:58:32 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:59:12 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 10:59:53 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:00:33 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 81 MB. Current time: 3/4/26, 11:01:13 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:01:54 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:02:34 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:03:14 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:03:55 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 81 MB. Current time: 3/4/26, 11:04:35 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:05:15 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:05:56 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 81 MB. Current time: 3/4/26, 11:06:36 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:07:16 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:07:57 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:08:37 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:09:18 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:09:58 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:10:38 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:11:19 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:11:59 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:12:39 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:13:20 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:14:00 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:14:40 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:15:21 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:16:01 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:16:41 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:17:22 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:18:02 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:18:43 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:19:23 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  610153 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 80 MB. Current time: 3/4/26, 11:30:13 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:30:54 AM MST
+// Elapsed time: 3634 seconds
+selectCodeEditor("stoplight_fsm.vhd", 239, 383); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 143, 220); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 143, 220, false, false, false, false, true); // ae (stoplight_fsm.vhd) - Double Click
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 11:31:34 AM MST
+// Elapsed time: 27 seconds
+selectCodeEditor("stoplight_fsm.vhd", 39, 185); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 78, 191); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 11:32:14 AM MST
+// Elapsed time: 43 seconds
+selectCodeEditor("stoplight_fsm.vhd", 442, 141); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 42, 183); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 66, 188); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 350, 215); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 410, 213); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 419, 137); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 11:32:54 AM MST
+// Elapsed time: 29 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 11:33:34 AM MST
+// Elapsed time: 23 seconds
+selectCodeEditor("stoplight_fsm.vhd", 351, 692); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 0, 463); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 0, 489); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 229, 618); // ae (stoplight_fsm.vhd)
+// Elapsed time: 16 seconds
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // C (RDIResourceCommand.RDICommands_SAVE_FILE)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:41m:35s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:34:14 AM MST
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 01h:41m:37s
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:34:54 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:35:34 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:36:14 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  17784 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:36:54 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:37:34 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:38:14 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:38:54 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:39:34 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:40:14 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:40:54 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:41:34 AM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 11:42:14 AM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  1189564 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 12:02:44 PM MST
+// Elapsed time: 1724 seconds
+selectCodeEditor("stoplight_fsm.vhd", 113, 278); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:03:24 PM MST
+// WARNING: HEventQueue.dispatchEvent() is taking  18109 ms.
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 12:04:23 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:05:03 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 12:05:43 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 12:06:24 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:07:04 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 12:07:44 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:08:25 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 12:09:05 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 12:09:46 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:10:26 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 12:11:06 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 12:11:47 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 12:12:27 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:13:08 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:13:48 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:14:28 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:15:09 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:15:49 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:16:29 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:17:10 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:17:50 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:18:31 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:19:11 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:19:51 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:20:32 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:21:12 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:21:53 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:22:33 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:23:13 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:23:54 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:24:34 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 12:25:14 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:25:55 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:26:35 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:27:16 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:27:56 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:28:37 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:29:17 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:29:57 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 12:30:38 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:31:18 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:31:58 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:32:39 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:33:19 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:34:00 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:34:40 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:35:20 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:36:01 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:36:41 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:37:21 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:38:02 PM MST
+// Elapsed time: 2143 seconds
+selectCodeEditor("stoplight_fsm.vhd", 407, 495); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 515, 439); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 547, 417); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:38:42 PM MST
+// Elapsed time: 18 seconds
+selectCodeEditor("stoplight_fsm.vhd", 533, 462); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 533, 462); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:39:22 PM MST
+// Elapsed time: 25 seconds
+selectCodeEditor("stoplight_fsm.vhd", 569, 562); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 413, 562); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 348, 565); // ae (stoplight_fsm.vhd)
+// Elapsed time: 16 seconds
+selectCodeEditor("stoplight_fsm.vhd", 411, 524); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 405, 549); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 705, 566); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:40:02 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:40:42 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:41:22 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:42:02 PM MST
+// Elapsed time: 141 seconds
+selectCodeEditor("stoplight_fsm.vhd", 239, 352); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 681, 361); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+// Elapsed time: 15 seconds
+selectCodeEditor("stoplight_fsm.vhd", 284, 328); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:42:42 PM MST
+// Elapsed time: 14 seconds
+selectCodeEditor("stoplight_fsm.vhd", 348, 325); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 441, 261); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 577, 237); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 577, 237, false, false, false, false, true); // ae (stoplight_fsm.vhd) - Double Click
+selectCodeEditor("stoplight_fsm.vhd", 577, 237); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 192, 241); // ae (stoplight_fsm.vhd)
+// Elapsed time: 15 seconds
+selectCodeEditor("stoplight_fsm.vhd", 475, 315); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 616, 311); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 571, 318); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 571, 318, false, false, false, false, true); // ae (stoplight_fsm.vhd) - Double Click
+selectCodeEditor("stoplight_fsm.vhd", 623, 316); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 403, 420); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 403, 420, false, false, false, false, true); // ae (stoplight_fsm.vhd) - Double Click
+selectCodeEditor("stoplight_fsm.vhd", 403, 420); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 12:43:22 PM MST
+selectCodeEditor("stoplight_fsm.vhd", 506, 386); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 375, 443); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 602, 437); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 12:44:03 PM MST
+// Elapsed time: 46 seconds
+selectCodeEditor("stoplight_fsm.vhd", 670, 465); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 192, 459); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 670, 468); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 247, 493); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 171, 624); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 194, 622); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 503, 528); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 123, 648); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 62 MB. Current time: 3/4/26, 12:44:43 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:45:23 PM MST
+// Elapsed time: 57 seconds
+selectCodeEditor("stoplight_fsm.vhd", 285, 697); // ae (stoplight_fsm.vhd)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // C (RDIResourceCommand.RDICommands_SAVE_FILE)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:52m:53s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 02h:52m:55s
+// Elapsed time: 19 seconds
+selectCodeEditor("stoplight_fsm.vhd", 123, 171); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 302, 161); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:46:03 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:46:43 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:47:23 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:48:03 PM MST
+// Elapsed time: 136 seconds
+selectCodeEditor("stoplight_fsm.vhd", 653, 410); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 244, 389); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 654, 413); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 467, 258); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 426, 265); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+// Elapsed time: 15 seconds
+selectCodeEditor("stoplight_fsm.vhd", 507, 399); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 654, 417); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 286, 536); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:48:43 PM MST
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 356, 534); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 152, 591); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 123, 591); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 125, 638); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 156, 562); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 223, 589); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 534, 614); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 190, 562); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 703, 641); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 574, 325); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:49:23 PM MST
+// Elapsed time: 45 seconds
+selectCodeEditor("stoplight_fsm.vhd", 233, 384); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:50:03 PM MST
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 525, 435); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 83, 490); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 197, 492); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 216, 482); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 217, 506); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 110, 488); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 117, 520); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 12:50:43 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:51:23 PM MST
+// Elapsed time: 69 seconds
+selectCodeEditor("stoplight_fsm.vhd", 230, 365); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 137, 368); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 139, 368); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 200, 390); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 403, 386); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 245, 401); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 197, 438); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 392, 440); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:52:03 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:52:43 PM MST
+// Elapsed time: 83 seconds
+selectCodeEditor("stoplight_fsm.vhd", 141, 434); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:53:23 PM MST
+selectCodeEditor("stoplight_fsm.vhd", 104, 431); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 181, 426); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 143, 445); // ae (stoplight_fsm.vhd)
+// Elapsed time: 21 seconds
+selectCodeEditor("stoplight_fsm.vhd", 130, 443); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 211, 432); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:54:03 PM MST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:54:43 PM MST
+// Elapsed time: 50 seconds
+selectCodeEditor("stoplight_fsm.vhd", 586, 418); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 621, 289); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 613, 278); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 653, 296); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 631, 290); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+// Elapsed time: 11 seconds
+selectCodeEditor("stoplight_fsm.vhd", 408, 373); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 510, 324); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 609, 289); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 630, 296); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 149, 335); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 338, 345); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 316, 340); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:55:24 PM MST
+selectCodeEditor("stoplight_fsm.vhd", 507, 340); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 415, 342); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 465, 346); // ae (stoplight_fsm.vhd)
+// Elapsed time: 30 seconds
+selectCodeEditor("stoplight_fsm.vhd", 433, 554); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:56:04 PM MST
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+// Elapsed time: 20 seconds
+selectCodeEditor("stoplight_fsm.vhd", 245, 596); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 393, 488); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 359, 567); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 244, 676); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:56:44 PM MST
+// Elapsed time: 17 seconds
+selectCodeEditor("stoplight_fsm.vhd", 128, 552); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 49, 541); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 121, 540); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 229, 498); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 237, 515); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 74, 541); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 122, 564); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 73, 583); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 135, 539); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 212, 389); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 141, 533); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 390, 393); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 325, 537); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 237, 567); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:57:24 PM MST
+selectCodeEditor("stoplight_fsm.vhd", 126, 538); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 271, 568); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 355, 544); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 366, 542); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 156, 564); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 382, 573); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 214, 583); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 295, 589); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 451, 585); // ae (stoplight_fsm.vhd)
+// Elapsed time: 10 seconds
+selectCodeEditor("stoplight_fsm.vhd", 123, 562); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 63 MB. Current time: 3/4/26, 12:58:04 PM MST
+selectCodeEditor("stoplight_fsm.vhd", 485, 587); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 525, 583); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 617, 593); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'v'); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 674, 266); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 486, 310); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 297, 367); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 596, 452); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 291, 404); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 418, 413); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 419, 449); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 332, 408); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 123, 415); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 421, 417); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 424, 417); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 488, 418); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 679, 413); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:58:44 PM MST
+selectCodeEditor("stoplight_fsm.vhd", 576, 438); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 334, 315); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 345, 439); // ae (stoplight_fsm.vhd)
+selectCodeEditor("stoplight_fsm.vhd", 723, 410); // ae (stoplight_fsm.vhd)
+typeControlKey((HResource) null, "stoplight_fsm.vhd", 'c'); // ae (stoplight_fsm.vhd)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,120 MB. GUI used memory: 61 MB. Current time: 3/4/26, 12:59:24 PM MST
+// Elapsed time: 34 seconds
+selectCodeEditor("stoplight_fsm.vhd", 444, 483); // ae (stoplight_fsm.vhd)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // C (RDIResourceCommand.RDICommands_SAVE_FILE)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 03h:06m:54s
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed Time for: 'PAResourceItoN.MsgLongTask_MESSAGE_LONG_TASK/M.f': 03h:06m:55s
+selectCodeEditor("stoplight_fsm.vhd", 283, 413); // ae (stoplight_fsm.vhd)

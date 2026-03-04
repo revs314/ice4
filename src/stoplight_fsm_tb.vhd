@@ -94,12 +94,13 @@ begin
   
 	-- PROCESSES --------------------------------------------------- 
 	-- Clock process
+	-- makes it blinking signal (0 to 1 to 0 to 1...)
 	clk_proc : process
 	begin
 		w_clk <= '0';
-        wait for k_clk_period/2;
+        wait for k_clk_period/2; --makes low for half cycle
 		w_clk <= '1';
-		wait for k_clk_period/2;
+		wait for k_clk_period/2; --makes high for half cycle
 	end process;
 	
 	-- Simulation process

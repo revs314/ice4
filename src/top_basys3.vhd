@@ -60,20 +60,33 @@ library ieee;
 entity top_basys3 is
 	port(
         clk     :   in std_logic;
-        sw  	:   in  std_logic_vector(0 downto 0);
+        sw  	:   in  std_logic_vector(0 downto 0); -- 0 => car is present
 		JA 		:   out std_logic_vector(2 downto 0);
-		btnC 	:   in  std_logic;
-		btnL	: 	in  std_logic
+		btnC 	:   in  std_logic; -- resets FSM
+		btnL	: 	in  std_logic -- resets for clock dividers
+		
 	);
 end top_basys3;
 
 architecture top_basys3_arch of top_basys3 is 
 
 --Declare stoplight component here 
+component stoplight_fsm is
+	generic ( constant k_DIV : natural := 2	); 
+	port ( 	i_clk    : in std_logic;		   -- basys3 clk
+			i_reset  : in std_logic;		   -- reset
+			i_C      : in std_logic;		   -- input cars
+			o_R      : out std_logic;		   -- red
+            o_Y      : out std_logic;		   -- yellow
+	        o_G      : out std_logic		   -- green
+	);
+end component stoplight_fsm;
 
-
+--slows down the clock to a speed that we can observe
+--k_DIV lets you choose what speed you want clock at
+--i_reset pauses clock when high
 component clock_divider is
-	generic ( constant k_DIV : natural := 2	);
+	generic ( constant k_DIV : natural := 2	); 
 	port ( 	i_clk    : in std_logic;		   -- basys3 clk
 			i_reset  : in std_logic;		   -- asynchronous
 			o_clk    : out std_logic		   -- divided (slow) clock
@@ -81,19 +94,38 @@ component clock_divider is
 end component clock_divider;
 
 	signal w_clk : std_logic;		--this wire provides the connection between o_clk and stoplight clk
+    signal w_slow_clk : std_logic;		--clock that goes at observable speed
+
 
 begin
 	-- PORT MAPS ----------------------------------------
 	--Port map stoplight here based on the design provided
-
+    stoplight_inst : stoplight_fsm 		--instantiation of clock_divider to take 
+        port map (						  
+            i_clk   => w_slow_clk,
+			i_reset => btnC,
+			i_C     => sw(0),
+			o_R     => JA(0),
+            o_Y     => JA(1),
+	        o_G     => JA(2)
+	    );
 
 --Complete the clock_divider portmap below based on the design provided	
 	clkdiv_inst : clock_divider 		--instantiation of clock_divider to take 
         generic map ( k_DIV => 50000000 ) -- 1 Hz clock from 100 MHz
         port map (						  
-            i_clk   => 
-            i_reset => 
-            o_clk   => 
+            i_clk   => clk,
+            i_reset => btnL, -- pressing L restarts the slow clock
+            o_clk   => w_slow_clk
+            
         );    
 	
 end top_basys3_arch;
+
+
+
+
+
+
+
+

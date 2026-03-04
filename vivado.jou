@@ -22,3 +22,5 @@
 # Available Virtual  : 13129 MB
 #-----------------------------------------------------------
 start_gui
+open_project C:/Users/C28Reva.Kalbhor/ece281/ice4/stoplight.xpr
+update_compile_order -fileset sources_1
