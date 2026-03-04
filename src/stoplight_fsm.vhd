@@ -70,26 +70,46 @@ entity stoplight_fsm is
 end stoplight_fsm;
 
 architecture stoplight_fsm_arch of stoplight_fsm is 
+    -- f_Q(1) is Q1
+        -- when Q1 is 0, it's not Q1
+    -- f_Q(0) is Q0
+        -- when Q0 is 0, it's not Q0
+    signal f_Q : std_logic_vector(1 downto 0) := "10";
+	-- yellow is our default and reset state
 	
-	-- create register signals with default state yellow (10)
+	-- f_Q_next(1) is Q1*
+    -- f_Q_next(0) is Q0*
+	signal f_Q_next : std_logic_vector(1 downto 0) := "10";
+	-- restart is also yellow
   
 begin
 	-- CONCURRENT STATEMENTS ----------------------------
 	-- Next state logic
+	--first equation
+	f_Q_next(1) <= not(f_Q(1)) AND f_Q(0) AND not(i_C);
 	
+	--second equation
+	f_Q_next(0) <= not(f_Q(1)) AND i_C;
 	
 	-- Output logic
-	
+	o_G <= not(f_Q(1)) AND f_Q(0);
+	o_Y <= f_Q(1) AND not(f_Q(0));
+	o_R <= (not(f_Q(1)) AND not(f_Q(0))) OR (f_Q(1) AND f_Q(0));
 	-------------------------------------------------------	
 	
 	-- PROCESSES ----------------------------------------	
-	-- state memory w/ asynchronous reset ---------------
-	register_proc : process (  )
-	begin
-			--Reset state is yellow
-
-
-	end process register_proc;
+	--- state memory w/ asynchronous reset ---
+	-- if reset is pressed, go to yellow, otherwise keep going
+    register_proc : process (i_clk, i_reset)
+    --run this code whenever clock or reset changes
+begin
+    if i_reset = '1' then
+        f_Q <= "10";        -- if reset is 1, reset to yellow
+    elsif (rising_edge(i_clk)) then
+        f_Q <= f_Q_next;    -- if clock goes from 0 to 1, then move fQ up
+    end if;
+end process register_proc;
+---
 	-------------------------------------------------------
 	
 end stoplight_fsm_arch;
